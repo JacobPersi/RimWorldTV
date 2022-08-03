@@ -18,6 +18,8 @@ Currently this mod includes:
 # Getting Started
 Download the latest release and install in your Rimworld's Mods folder. You will also need to configure the mod's settings through the in-game options menu.
 
+If at any time your connection to the server drops, you may force-reconnect via the mod options menu. 
+
 ## Dependencies
 RimWolrdTV depends on:
 - [Harmony](https://github.com/pardeike/HarmonyRimWorld/)
