@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RimWorldTV", "RimWorldTV.csproj", "{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}.Debug|x64.Build.0 = Debug|Any CPU
+		{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}.Release|x64.ActiveCfg = Release|Any CPU
+		{CBA56560-FAE2-4EB4-BA77-9E2162B45A81}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21CB0030-77F4-4EFD-BBAB-2D9F562A5BA7}
+	EndGlobalSection
+EndGlobal

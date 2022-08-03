@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Mod settings: -->
+  <Settings.Hostname.Title>Hostname</Settings.Hostname.Title>
+  <Settings.Hostname.Description>The hostname of the command server you wish to connect with.</Settings.Hostname.Description>
+
+  <Settings.Port.Title>Port</Settings.Port.Title>
+  <Settings.Port.Description>The port of the command server you wish to connect with.</Settings.Port.Description>
+
+  <Settings.DisplayViewer.Title>Display Viewer Name</Settings.DisplayViewer.Title>
+  <Settings.DisplayViewer.Description>Determines whether viewer names be included in in-game notifications.</Settings.DisplayViewer.Description>
+
+  <Settings.Status.Title>Connection Status</Settings.Status.Title>
+  <Settings.Status.Description>The state of the TCP connection to the command server.</Settings.Status.Description>
+  <Settings.Status.Retry>Retry Connection</Settings.Status.Retry>
+
+
+  <Settings.ShowAdvanced.Title>Advanced Settings</Settings.ShowAdvanced.Title>
+  <Settings.ShowAdvanced.Description>Modify effect settings?</Settings.ShowAdvanced.Description>
+
+  settingName: "Settings.", title: "Settings.ShowAdvanced.Title".Translate(), description: "Settings.ShowAdvanced.Description".Translate(),
+
+  <!-- Leading spaces are a hacky way of nesting settings under their parent effect. -->
+  <Settings.EffectTimeout.Title>    Timeout</Settings.EffectTimeout.Title>
+  <Settings.EffectTimeout.Description>The number of seconds that must be elapsed before this effect can be triggered again.</Settings.EffectTimeout.Description>
+
+  <Settings.MinCount.Title>    Min Count</Settings.MinCount.Title>
+  <Settings.MinCount.Description>The minimum number of events to fire for this effect.</Settings.MinCount.Description>
+
+  <Settings.MaxCount.Title>    Max Count</Settings.MaxCount.Title>
+  <Settings.MaxCount.Description>The maximum number of events to fire for this effect.</Settings.MaxCount.Description>
+
+  <Settings.Size.Title>    Size</Settings.Size.Title>
+  <Settings.Size.Description>The desired size of this effect.</Settings.Size.Description>
+
+  <Settings.Factor.Title>    Multiplier</Settings.Factor.Title>
+  <Settings.Factor.Description>The desired significance of this effect.</Settings.Factor.Description>
+
+  <Settings.Duration.Title>    Duration</Settings.Duration.Title>
+  <Settings.Duration.Description>The amount of time for this effect to be executed.</Settings.Duration.Description>
+
+  <!-- Client states: -->
+  <Network.Uninitialized>Uninitialized</Network.Uninitialized>
+  <Network.Connected>Connected</Network.Connected>
+  <Network.Disconnected>Disconnected</Network.Disconnected>
+  <Network.Failure>Failed</Network.Failure>
+
+  <!-- Notifications: -->
+  <Notification.Label>&lt;color=#7ee787&gt;[RimWorld TV]&lt;/color&gt;</Notification.Label>
+  <Notification.Connected>Connected!</Notification.Connected>
+  <Notification.Failure>Error, connection failure!</Notification.Failure>
+  <Notification.Disconnected>Disconnected!</Notification.Disconnected>
+  <Notification.Attempting>Attempting connection...</Notification.Attempting>
+  <Notification.TriggeredBy>\n\nThis effect was triggered by: {0}</Notification.TriggeredBy>
+  <Notification.Indicator>{0} : {1}</Notification.Indicator>
+  <Notification.Terminated>{0} has finished...</Notification.Terminated>
+
+  <!-- Effect specific messages: -->
+
+  <wildfire.Title>Wildfire</wildfire.Title>
+  <wildfire.Notification>A wildfire has started!</wildfire.Notification>
+  <wildfire.Description>A fire has started somewhere in the colony. It's spreading quickly and burning everything in its path. Try to put it out before it does too much damage!</wildfire.Description>
+
+  <randomgift.Title>Mystery donation</randomgift.Title>
+  <randomgift.Notification>The colony has received a mystery donation!</randomgift.Notification>
+  <randomgift.Description>The colony has been given a mystery donation by a charitable organization. What could it be?</randomgift.Description>
+
+  <wildmanhorde.Title>Wild Men Horde</wildmanhorde.Title>
+  <wildmanhorde.Notification>A horde of wild men approach!</wildmanhorde.Notification>
+  <wildmanhorde.Description>A group of wild men come streaming out of the woods, whooping and hollering.\n\nThey're armed with crude weapons and they're looking for a fight.\n\nThey'll attack anything that moves, so be careful!</wildmanhorde.Description>
+
+  <tradecaravan.Title>Trade Caravan</tradecaravan.Title>
+  <tradecaravan.Notification>A trade caravan has arrived!</tradecaravan.Notification>
+  <tradecaravan.Description>A trade caravan has come to the colony, offering goods and services in exchange for payment. This is a great opportunity to get some much-needed supplies!</tradecaravan.Description>
+
+  <meteoritelanding.Title>Meteorite Crash Landing</meteoritelanding.Title>
+  <meteoritelanding.Notification>A meteorite has crashed nearby!</meteoritelanding.Notification>
+  <meteoritelanding.Description>A meteorite has crash-landed near the colony. It could be valuable, so go and check it out!</meteoritelanding.Description>
+  <meteoritelanding.Label>{0} Meteorite Impact</meteoritelanding.Label>
+
+  <randomquest.Title>Random Quest</randomquest.Title>
+  <randomquest.Notification>An important mission has been assigned to the colony!</randomquest.Notification>
+  <randomquest.Description>The colony has been given a mission to complete. If they succeed, they'll be rewarded handsomely. But if they fail, the consequences could be dire.</randomquest.Description>
+
+  <inspirecolony.Title>Colony Inspiration</inspirecolony.Title>
+  <inspirecolony.Notification>The colony is inspired!</inspirecolony.Notification>
+  <inspirecolony.Description>The colonists are feeling inspired and motivated. They'll work harder and be more productive for a short while.</inspirecolony.Description>
+
+  <newrecruit.Title>New Recruit</newrecruit.Title>
+  <newrecruit.Notification>A new colonist has arrived!</newrecruit.Notification>
+  <newrecruit.Description>A new colonist has arrived at the colony. They'll need a place to stay and something to do. Assign them to a job and make them feel welcome!</newrecruit.Description>
+
+  <outbreak.Title>Outbreak</outbreak.Title>
+  <outbreak.Notification>An outbreak has started!</outbreak.Notification>
+  <outbreak.Description>A disease has started spreading through the colony. Try to contain it before it gets out of control!</outbreak.Description>
+  <outbreak.Letter>{0} has contracted {1}, a disease which is quickly spreading throughout the colony. Be sure to take precautions and contain the outbreak before it gets out of control!</outbreak.Letter>
+
+  <healinggrace.Title>Healing Grace</healinggrace.Title>
+  <healinggrace.Notification>The colony is under the effects of healing grace.</healinggrace.Notification>
+  <healinggrace.Description>A mysterious force has blessed the colony. All wounds are healed and all diseases are cured. This is a rare opportunity to get the colony back on its feet!</healinggrace.Description>
+
+  <harvestbounty.Title>Harvest Bounty</harvestbounty.Title>
+  <harvestbounty.Notification>Your crops are bountiful this season!</harvestbounty.Notification>
+  <harvestbounty.Description>You've been blessed! Your crops are healthy and plentiful. Make the most of this harvest, as you'll need all the food you can get. Be sure to hurry though, as this effect has a limited duration!</harvestbounty.Description>
+
+  <destroyhats.Title>Destroy All Hats</destroyhats.Title>
+  <destroyhats.Notification>All hats must be destroyed!</destroyhats.Notification>
+  <destroyhats.Description>For some reason, all hats must be destroyed. It's a mystery why, but it must be done. Your colonists rip their hats off their heads and start smashing them to bits. The horror!</destroyhats.Description>
+
+  <animalstampede.Title>Animal Stampede</animalstampede.Title>
+  <animalstampede.Notification>An animal stampede is incoming!</animalstampede.Notification>
+  <animalstampede.Description>A herd of animals is stampeding towards the colony. They're panicked and they're going to trample anything in their way. Take cover!</animalstampede.Description>
+
+  <infestation.Title>Infestation</infestation.Title>
+  <infestation.Notification>The colony is infested!</infestation.Notification>
+  <infestation.Description>The colony has been infested by a swarm of aliens. They're everywhere, and they're multiplying quickly. Try to contain them before they overwhelm the colony!</infestation.Description>
+
+  <animalselftame.Title>Animal Self Tame</animalselftame.Title>
+  <animalselftame.Notification>An animal has self-tamed!</animalselftame.Notification>
+  <animalselftame.Description>One of the animals in the colony has tamed itself. It's now friendly and can be used as a working animal.</animalselftame.Description>
+
+  <resurrectcolonist.Title>Resurrection</resurrectcolonist.Title>
+  <resurrectcolonist.Notification>A resurrection has occurred!</resurrectcolonist.Notification>
+  <resurrectcolonist.Description>One of the colony's members has been resurrected from the dead. It's a miracle! Although, a little creepy.</resurrectcolonist.Description>
+
+  <researchbreakthrough.Title>Research Breakthrough</researchbreakthrough.Title>
+  <researchbreakthrough.Notification>The colony has made a research breakthrough: {0}!</researchbreakthrough.Notification>
+  <researchbreakthrough.Description>The colony's researchers have made a breakthrough in their studies. They've discovered something new and exciting that could change everything!</researchbreakthrough.Description>
+
+  <mentalbreak.Title>Mental Strain</mentalbreak.Title>
+  <mentalbreak.Notification>The colony is under mental strain.</mentalbreak.Notification>
+  <mentalbreak.Description>The colony is under a lot of stress. Some of the survivors are starting to crack under the pressure. Keep an eye on them and try to help them cope before it's too late.</mentalbreak.Description>
+
+  <tornado.Title>Tornado</tornado.Title>
+  <tornado.Notification>A tornado is incoming!</tornado.Notification>
+  <tornado.Description>A tornado is headed for the colony. Take cover and hope that it doesn't do too much damage!</tornado.Description>
+
+  <catdograin.Title>Pet Storm</catdograin.Title>
+  <catdograin.Notification>It's raining cats and dogs!</catdograin.Notification>
+  <catdograin.Description>It's raining so hard that animals are falling from the sky! Try to take cover and stay safe until it stops.</catdograin.Description>
+
+  <orbitalbarrage.Title>Orbital Barrage</orbitalbarrage.Title>
+  <orbitalbarrage.Notification>An orbital barrage is incoming!</orbitalbarrage.Notification>
+  <orbitalbarrage.Description>A ship in orbit is bombarding the area with lasers and missiles. Take cover!</orbitalbarrage.Description>
+
+  <!-- World effects: -->
+  <worldeffect_emp.Title>Electromagnetic Pulse</worldeffect_emp.Title>
+  <worldeffect_emp.Notification>An EMP pulse is incoming!</worldeffect_emp.Notification>
+  <worldeffect_emp.Description>A massive EMP pulse is heading towards the colony. All electronic devices will be disabled when it hits. Try to take cover!</worldeffect_emp.Description>
+
+  <worldeffect_heatwave.Title>Heatwave</worldeffect_heatwave.Title>
+  <worldeffect_heatwave.Notification>A heat wave is incoming!</worldeffect_heatwave.Notification>
+  <worldeffect_heatwave.Description>A heat wave is sweeping through the area. The temperature is rising and it's starting to take its toll on the colony. Try to stay cool and don't let the heat wave get the best of you!</worldeffect_heatwave.Description>
+
+  <worldeffect_cold.Title>Cold Snap</worldeffect_cold.Title>
+  <worldeffect_cold.Notification>A cold snap is incoming!</worldeffect_cold.Notification>
+  <worldeffect_cold.Description>A cold snap is coming. Make sure the colony is prepared or they'll start to freeze!</worldeffect_cold.Description>
+
+  <worldeffect_eclipse.Title>Solar Eclipse</worldeffect_eclipse.Title>
+  <worldeffect_eclipse.Notification>A solar eclipse is happening!</worldeffect_eclipse.Notification>
+  <worldeffect_eclipse.Description>The sun has disappeared! It's pitch black outside. This is a perfect opportunity for criminals to strike!</worldeffect_eclipse.Description>
+
+  <worldeffect_fallout.Title>Toxic Fallout</worldeffect_fallout.Title>
+  <worldeffect_fallout.Notification>Toxic fallout is incoming!</worldeffect_fallout.Notification>
+  <worldeffect_fallout.Description>A cloud of toxic gas is approaching the colony. Take cover and hope that it dissipates before it does too much damage!</worldeffect_fallout.Description>
+
+  <worldeffect_winter.Title>Volcanic Winter</worldeffect_winter.Title>
+  <worldeffect_winter.Notification>A volcanic winter is incoming!</worldeffect_winter.Notification>
+  <worldeffect_winter.Description>A nearby volcano has erupted, sending a cloud of ash and dust into the atmosphere. The temperature is dropping and the colony is in for a long, cold worldeffect_winter.</worldeffect_winter.Description>
+
+</LanguageData>
