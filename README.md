@@ -16,7 +16,7 @@ Currently, this mod includes:
 - In-game effect configuration menu.
 
 # Getting Started
-Download the latest release and install it in your Rimworld's Mods folder. You will also need to configure the mod's settings through the in-game options menu.
+Download the [latest release](https://github.com/JacobPersi/RimWorldTV/releases/tag/0.0.1) and install it in your Rimworld's Mods folder. You will also need to configure the mod's settings through the in-game options menu.
 
 If at any time your connection to the server drops, you may force-reconnect via the mod options menu. 
 
