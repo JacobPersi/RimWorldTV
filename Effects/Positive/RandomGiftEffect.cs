@@ -37,8 +37,7 @@ namespace RimWorldTV {
                 spawnItems.Add(CreateItem(itemDef));
             }
 
-            IntVec3 location;
-            RCellFinder.TryFindRandomSpotJustOutsideColony(currentMap.areaManager.Home.ActiveCells.RandomElement(), currentMap, out location);
+            IntVec3 location = DropCellFinder.TradeDropSpot(currentMap);
             DropPodUtility.DropThingsNear(location, currentMap, spawnItems);
 
             SendCardNotification(currentMap, location, LetterDefOf.PositiveEvent, command.viewerName);

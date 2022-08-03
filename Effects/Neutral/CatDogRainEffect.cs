@@ -37,10 +37,10 @@ namespace RimWorldTV {
                 IntVec3 spawnLocation = IntVec3.Invalid;
                 if (CellFinder.TryFindRandomCellInsideWith(mapCells, cell => cell.Roofed(currentMap) == false, out spawnLocation)) {
                     Pawn pawn = PawnGenerator.GeneratePawn(animalDefs.RandomElement());
-                    pawn.health.SetDead();
-                    Corpse corpse = (Corpse)ThingMaker.MakeThing(pawn.RaceProps.corpseDef, null);
-                    corpse.InnerPawn = pawn;
-                    SkyfallerMaker.SpawnSkyfaller(ThingDefOf.MeteoriteIncoming, corpse, spawnLocation, currentMap);
+                    //TradeUtility.SpawnDropPod(spawnLocation, currentMap, pawn);
+                    SkyfallerMaker.SpawnSkyfaller(ThingDefOf.MeteoriteIncoming, pawn, spawnLocation, currentMap);
+                    HealthUtility.DamageUntilDead(pawn);
+
                 }
             }
             SendCardNotification(triggeredBy: command.viewerName);
