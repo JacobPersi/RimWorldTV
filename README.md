@@ -4,7 +4,7 @@
 RimWorldTV is third-party stream integration front-end mod for RimWorld developed by Ludeon Studios.  
 RimWorldTV allows viewers to interact with broadcasters in real-time, adding fun and immersion to the viewing experience.
 
-**Note**: This is the client-side mod. RimWorldTV serves as a client for interacting with RimWorld and managing various in-game effects. Additional code will be required to integrate with your desired streaming platform, handle transactions, and so on.
+**Note**: This is only a client, this mod does not directly integrate with any particular streaming platform.
 
 # Features
 Various in-game effects have been implemented. These effects have been designed to create an immersive streaming experience for viewers, both supporting and thwarting the broadcaster.
