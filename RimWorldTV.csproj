@@ -26,7 +26,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>portable</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\RimWorld - Game Directory\Mods\RimWorldTV\Assemblies\</OutputPath>
+    <OutputPath>..\..\Work\Crowd Control\Data\RimWorld\Mods\RimWorldTV\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>

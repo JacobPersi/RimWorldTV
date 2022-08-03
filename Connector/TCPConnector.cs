@@ -32,15 +32,10 @@ namespace RimWorldTV {
 
         public void Send(string message) {
             try {
-                byte[] data = EncodeMessage(message);
-
-                // Todo: Adds a null byte, not sure if this is required. 
-                byte[] data2 = new byte[data.Length + 1];
-                data.CopyTo(data2, 0);
-                data2[data.Length] = 0;
-
+                byte[] messageBytes = EncodeMessage(message);
+                messageBytes = AddNullTerminator(messageBytes);
+                Stream.Write(messageBytes, 0, messageBytes.Length);
                 ModService.Instance.Logger.Trace($"Sent: {message}");
-                Stream.Write(data, 0, data.Length);
             }
             catch (System.IO.IOException) {
                 Status = ConnectorStatus.Failure;
@@ -68,11 +63,18 @@ namespace RimWorldTV {
         }
 
         private byte[] EncodeMessage(string message) {
-            return System.Text.Encoding.ASCII.GetBytes(message);
+            return System.Text.UTF8Encoding.ASCII.GetBytes(message);
         }
 
         private string DecodeMessage(byte[] data, int length) {
-            return System.Text.Encoding.ASCII.GetString(data, 0, length);
+            return System.Text.UTF8Encoding.ASCII.GetString(data, 0, length);
+        }
+
+        private byte[] AddNullTerminator(byte[] input) {
+            byte[] output = new byte[input.Length + 1];
+            input.CopyTo(output, 0);
+            output[input.Length] = 0;
+            return output;
         }
     }
 }

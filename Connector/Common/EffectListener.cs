@@ -10,7 +10,7 @@ namespace RimWorldTV {
 
         private BackgroundWorker Worker;
         private TcpConnector Connector;
-        private const string ResponseText = "{{\"id\": {0}, \"status\": {1}, \"message\": \"\", \"timeRemaining\": 0, \"type\": {2}}}";
+        private const string ResponseText = "{{\"id\":{0},\"status\":{1},\"message\":\"\",\"timeRemaining\":0,\"type\":0}}";
         private string Hostname;
         private uint Port;
 
@@ -32,7 +32,7 @@ namespace RimWorldTV {
         }
 
         public void ReportEffectStatus(EffectCommand message, EffectStatus status) {
-            string response = string.Format(ResponseText, message.id, (int)status, 2);
+            string response = string.Format(ResponseText, message.id, (int)status);
             Connector.Send(response);
         }
 
