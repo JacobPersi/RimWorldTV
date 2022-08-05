@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using CrowdControl.Common;
 using CrowdControl.Games.Packs;
@@ -11,9 +11,9 @@ public class RimWorld : SimpleTCPPack {
 
     public RimWorld(IPlayer player, Func<CrowdControlBlock, bool> responseHandler, Action<object> statusUpdateHandler) : base(player, responseHandler, statusUpdateHandler) { }
 
-    public override Game Game { get; } = new Game(90, "RimWorldTV", "RimWorld", "PC", ConnectorType.SimpleTCPConnector);
+    public override Game Game { get; } = new(160, "RimWorld", "RimWorld", "PC", ConnectorType.SimpleTCPConnector);
 
-    public override List<Effect> Effects => new List<Effect>
+    public override List<Effect> Effects => new()
     {
         new Effect("Positive Effects","positive", ItemKind.Folder),
         new Effect("Animal Self Tame", "animalselftame","positive"),
