@@ -7,7 +7,7 @@
   <supportedVersions>
     <li>1.3</li>
   </supportedVersions>
-  <description>The "RimWorldTV" mod allows streamers to interact with their viewers in new and interesting ways. By allowing the viewer to trigger various in-game effects, a streamer can make their broadcast more interactive and exciting.\n\nThe mod is highly customizable, so you're able to set it up exactly how you want. There are many different effects that viewers can trigger, ranging from simple things like changing the weather to more complex things like spawning in new colonists.\n\nThere are also a variety of different settings that you can tweak to change how the mod behaves. For example, you can set a cooldown period between viewer effects, or you can choose to only allow certain effects to be triggered.\n\nIf you're looking for a way to make your RimWorld stream more interactive, then the "RimWorldTV" mod is for you!</description>
+  <description>The "RimWorldTV" mod allows streamers to interact with their viewers in new and interesting ways. By allowing the viewer to trigger various in-game effects, a streamer can make their broadcast more interactive and exciting.</description>
 
   <modDependencies>
     <li>

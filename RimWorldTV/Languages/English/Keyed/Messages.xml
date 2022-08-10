@@ -144,29 +144,4 @@
   <orbitalbarrage.Notification>An orbital barrage is incoming!</orbitalbarrage.Notification>
   <orbitalbarrage.Description>A ship in orbit is bombarding the area with lasers and missiles. Take cover!</orbitalbarrage.Description>
 
-  <!-- World effects: -->
-  <worldeffect_emp.Title>Electromagnetic Pulse</worldeffect_emp.Title>
-  <worldeffect_emp.Notification>An EMP pulse is incoming!</worldeffect_emp.Notification>
-  <worldeffect_emp.Description>A massive EMP pulse is heading towards the colony. All electronic devices will be disabled when it hits. Try to take cover!</worldeffect_emp.Description>
-
-  <worldeffect_heatwave.Title>Heatwave</worldeffect_heatwave.Title>
-  <worldeffect_heatwave.Notification>A heat wave is incoming!</worldeffect_heatwave.Notification>
-  <worldeffect_heatwave.Description>A heat wave is sweeping through the area. The temperature is rising and it's starting to take its toll on the colony. Try to stay cool and don't let the heat wave get the best of you!</worldeffect_heatwave.Description>
-
-  <worldeffect_cold.Title>Cold Snap</worldeffect_cold.Title>
-  <worldeffect_cold.Notification>A cold snap is incoming!</worldeffect_cold.Notification>
-  <worldeffect_cold.Description>A cold snap is coming. Make sure the colony is prepared or they'll start to freeze!</worldeffect_cold.Description>
-
-  <worldeffect_eclipse.Title>Solar Eclipse</worldeffect_eclipse.Title>
-  <worldeffect_eclipse.Notification>A solar eclipse is happening!</worldeffect_eclipse.Notification>
-  <worldeffect_eclipse.Description>The sun has disappeared! It's pitch black outside. This is a perfect opportunity for criminals to strike!</worldeffect_eclipse.Description>
-
-  <worldeffect_fallout.Title>Toxic Fallout</worldeffect_fallout.Title>
-  <worldeffect_fallout.Notification>Toxic fallout is incoming!</worldeffect_fallout.Notification>
-  <worldeffect_fallout.Description>A cloud of toxic gas is approaching the colony. Take cover and hope that it dissipates before it does too much damage!</worldeffect_fallout.Description>
-
-  <worldeffect_winter.Title>Volcanic Winter</worldeffect_winter.Title>
-  <worldeffect_winter.Notification>A volcanic winter is incoming!</worldeffect_winter.Notification>
-  <worldeffect_winter.Description>A nearby volcano has erupted, sending a cloud of ash and dust into the atmosphere. The temperature is dropping and the colony is in for a long, cold worldeffect_winter.</worldeffect_winter.Description>
-
 </LanguageData>
