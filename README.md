@@ -11,8 +11,7 @@ Currently, this mod includes:
 
 - A simple TCP/IP client which receives effect messages and triggers them in-game.
 - Various in-game effects, for a full list of effects and their outcomes [click here](https://github.com/JacobPersi/RimWorldTV/blob/main/Docs/Effect%20List.md).
-- Internationalization & multi-language support.
-- In-game effect configuration menu.
+- Multi-language support & in-game configuration menu.
 
 # Getting Started
 Download the [latest release](https://github.com/JacobPersi/RimWorldTV/releases/tag/0.0.1) and install it in your Rimworld's Mods folder. You will also need to configure the mod's settings through the in-game options menu.
